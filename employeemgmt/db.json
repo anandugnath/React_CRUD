@@ -3,9 +3,9 @@
     {
       "id": "101",
       "name": "John Doe",
-      "phone": "IT",
       "email": "Software Engineer",
-      "salary": 60000
+      "phone": "IT",
+      "salary": "75000"
     },
     {
       "id": "102",
