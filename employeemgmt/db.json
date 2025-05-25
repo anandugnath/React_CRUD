@@ -1,0 +1,60 @@
+{
+  "employees": [
+    {
+      "id": "101",
+      "name": "John Doe",
+      "phone": "IT",
+      "email": "Software Engineer",
+      "salary": 60000
+    },
+    {
+      "id": "102",
+      "name": "Jane Smith",
+      "email": "HR Manager",
+      "phone": "HR",
+      "salary": "79000"
+    },
+    {
+      "id": "103",
+      "name": "Mike Johnson",
+      "phone": "Finance",
+      "email": "Accountant",
+      "salary": 55000
+    },
+    {
+      "id": "104",
+      "name": "Akhil",
+      "phone": "Finance",
+      "email": "Accountant",
+      "salary": 12000
+    },
+    {
+      "id": "105",
+      "name": "Satheesh",
+      "phone": "IT",
+      "email": "Software",
+      "salary": 23500
+    },
+    {
+      "id": "106",
+      "name": "Anandu ",
+      "phone": "IT",
+      "email": "Software",
+      "salary": 18500
+    },
+    {
+      "id": "335a",
+      "name": "ANANDU G NATH",
+      "email": "anandugnath@gmail.com",
+      "phone": "0568898522",
+      "salary": "25000"
+    },
+    {
+      "id": "396d",
+      "name": "ABC 12",
+      "email": "abc@gmail.com",
+      "phone": "074569852",
+      "salary": "25000"
+    }
+  ]
+}

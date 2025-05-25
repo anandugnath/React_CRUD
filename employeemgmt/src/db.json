@@ -1,0 +1,26 @@
+{
+    "employees": [
+      {
+        "id": 101,
+        "name": "John Doe",
+        "phone": "IT",
+        "email": "Software Engineer",
+        "salary": 60000
+      },
+      {
+        "id": 102,
+        "name": "Jane Smith",
+        "phone": "HR",
+        "email": "HR Manager",
+        "salary": 70000
+      },
+      {
+        "id": 103,
+        "name": "Mike Johnson",
+        "phone": "Finance",
+        "email": "Accountant",
+        "salary": 55000
+      }
+    ]
+  }
+  
