@@ -57,4 +57,33 @@
       "salary": "25000"
     }
   ]
+,
+"departments":[
+  {
+    "id": 1,
+    "department_name": "Human Resources",
+    "status": "Active"
+  },
+  {
+    "id": 2,
+    "department_name": "Finance",
+    "status": "Active"
+  },
+  {
+    "id": 3,
+    "department_name": "Information Technology",
+    "status": "Inactive"
+  },
+  {
+    "id": 4,
+    "department_name": "Marketing",
+    "status": "Active"
+  },
+  {
+    "id": 5,
+    "department_name": "Research and Development",
+    "status": "Inactive"
+  }
+]
+
 }

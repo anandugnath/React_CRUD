@@ -15,7 +15,7 @@ export const Header = () => {
               navbarScroll
             >
               <Nav.Link  as={Link} to="/employee" >Employee</Nav.Link>
-              <Nav.Link href="#action2">Department</Nav.Link>
+              <Nav.Link  as={Link} to="department">Department</Nav.Link>
               
             </Nav>
             <Form className="d-flex">
