@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 
-export const DepartmentTable = () => {
+export const DepartmentTable = ({refreshKey }) => {
 
     const [departmetlst,setdepartmentLst]=useState([]);
 useEffect(()=>
@@ -19,7 +19,7 @@ useEffect(()=>
     {
        
     });
-},[])
+},[refreshKey])
 
   return (
     

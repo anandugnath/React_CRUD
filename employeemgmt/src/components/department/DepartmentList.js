@@ -5,8 +5,12 @@ import { DepartmentTable } from './DepartmentTable';
 export const DepartmentList = () => {
     
     const [modalMode, setModalMode] = useState('add'); 
+    const [showmodal, setShowModal] = useState(false); 
 
-
+    const [refreshKey, setRefreshKey] = useState(0);
+    const handleDepartmentSaved = () => {
+        setRefreshKey(prev => prev + 1); // Increment to trigger useEffect in table
+      };
   return (
     <div className="container">
 
@@ -16,8 +20,8 @@ export const DepartmentList = () => {
 }}>
   New (+)
 </button>
-<DepartmentAdd modalMode={modalMode} />
-   <DepartmentTable/>
+<DepartmentAdd modalMode={modalMode}  onSave={handleDepartmentSaved}    onClose={() => setShowModal(false)} />
+   <DepartmentTable refreshKey={refreshKey}/>
 </div>
   )
 }
